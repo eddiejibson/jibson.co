@@ -61,7 +61,7 @@ p {
     margin-right: 10px !important;
 }
 
-.row-2 {
+.icons {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -265,7 +265,7 @@ a {
         margin-bottom: 10px;
     }
 
-    .row-2 {
+    .icons {
        flex-direction: column;
     }
   }
