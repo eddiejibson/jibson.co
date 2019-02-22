@@ -33,7 +33,7 @@ p {
     margin-bottom: 20px;
 }
 
-.large-icon {
+.icon {
     margin-right: 5px;
     font-size: 1.2rem;
     color: #bdc3c7;
@@ -51,7 +51,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    align-content: center;  
     flex-direction: column;
 
 }
@@ -61,7 +61,7 @@ p {
     margin-right: 10px !important;
 }
 
-.row-2 {
+.icons {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -265,7 +265,7 @@ a {
         margin-bottom: 10px;
     }
 
-    .row-2 {
+    .icons {
        flex-direction: column;
     }
   }
