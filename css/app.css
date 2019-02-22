@@ -33,11 +33,10 @@ p {
     margin-bottom: 20px;
 }
 
-.icon {
+.large-icon {
     margin-right: 5px;
     font-size: 1.2rem;
     color: #bdc3c7;
-    animation: smooth 40s infinite;
 }
 
 .footer p {
@@ -62,7 +61,7 @@ p {
     margin-right: 10px !important;
 }
 
-.icons {
+.row-2 {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -266,7 +265,7 @@ a {
         margin-bottom: 10px;
     }
 
-    .icons {
+    .row-2 {
        flex-direction: column;
     }
   }
