@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    background-color: #313339;
+    font-family: 'Source Sans Pro', sans-serif;
+    filter: blur(4px);
+    transition: filter 1s ease-out;
+}
+
+h1,h2,h3,h4,h5,p {
+    color: #fff;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+.header {
+    color: #fff;
+    position: relative;
+}
+
+.homeJumbo {
+    padding-top: 75px;
+    padding-bottom: 175px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.large-icon {
+    margin-right: 5px;
+    font-size: 1.2rem;
+    color: #bdc3c7;
+}
+
+.footer p {
+    color: #bdc3c7;
+}
+
+.header-content {
+    text-align: center;
+    height: 450px;
+    background-color: #ff4757;
+    animation: smooth 40s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.bullet {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.row-2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+@keyframes smooth {
+    0%   {background: #ff4757;}
+    25%  {background: #1e90ff;}
+    50%  { background: #6a89cc;}
+    75%  {background: #00b894;}
+    100% {background: #ff4757;}
+}
+
+@keyframes fadeIn {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.header-content p {
+    color: #e3e7ea;
+    font-size: 1.2rem;
+}
+
+.footer svg {
+    display: none;
+    transform: rotate(180deg);
+    fill:#313339
+}
+
+.header svg {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: inherit;
+    -webkit-fill: currentColor;
+    fill: #313339;
+    pointer-events: none;
+    
+}
+
+.header p {
+    margin: 0;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.card {
+    width: 100%;
+    background-color: #2b2c31;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.08)
+}
+
+
+.card h1 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    color: #bdc3c7;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ffffff !important;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.middle {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card p {
+    margin: 0;
+    color: #bdc3c7;
+}
+
+.inner-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-title h1 {
+    margin: 0;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.pill {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #ff4757;
+    animation: smooth 40s infinite;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #fff;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.container {
+    animation: fadeIn 2s;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.loaded {
+    filter: blur(0px);
+}
+
+.footer {
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .inner-container {
+      width: 80%
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    .card {
+        width: auto;
+    }
+    .row {
+      flex-direction: column;
+    }
+
+    .middle {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 870px) {
+    .bullet {
+      display: none;
+    }
+
+    .link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .row-2 {
+       flex-direction: column;
+    }
+  }
