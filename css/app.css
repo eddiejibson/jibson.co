@@ -33,10 +33,11 @@ p {
     margin-bottom: 20px;
 }
 
-.large-icon {
+.icon {
     margin-right: 5px;
     font-size: 1.2rem;
     color: #bdc3c7;
+    animation: smooth 40s infinite;
 }
 
 .footer p {
