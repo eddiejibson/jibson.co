@@ -6,7 +6,12 @@ body {
     transition: filter 1s ease-out;
 }
 
-h1,h2,h3,h4,h5,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
     color: #fff;
 }
 
@@ -45,7 +50,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;  
+    align-content: center;
     flex-direction: column;
 }
 
@@ -65,16 +70,35 @@ p {
 }
 
 @keyframes smooth {
-    0%   {background: #ff4757;}
-    25%  {background: #1e90ff;}
-    50%  { background: #6a89cc;}
-    75%  {background: #00b894;}
-    100% {background: #ff4757;}
+    0% {
+        background: #ff4757;
+    }
+
+    25% {
+        background: #1e90ff;
+    }
+
+    50% {
+        background: #6a89cc;
+    }
+
+    75% {
+        background: #00b894;
+    }
+
+    100% {
+        background: #ff4757;
+    }
 }
 
 @keyframes fadeIn {
-    0%   {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .header-content p {
@@ -85,14 +109,14 @@ p {
 .footer svg {
     display: none;
     transform: rotate(180deg);
-    fill:#313339
+    fill: #313339
 }
 
 .header svg {
     position: absolute;
     top: auto;
     right: 0;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     color: inherit;
@@ -117,7 +141,7 @@ h1 {
     background-color: #2b2c31;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,.08)
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .08)
 }
 
 .card h1 {
@@ -222,17 +246,18 @@ a {
 
 @media only screen and (max-width: 1300px) {
     .inner-container {
-      width: 80%
+        width: 80%
     }
-  }
+}
 
-  @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
 
     .card {
         width: auto;
     }
+
     .row {
-      flex-direction: column;
+        flex-direction: column;
     }
 
     .middle {
@@ -242,12 +267,12 @@ a {
         margin-bottom: 20px;
     }
 
-  }
+}
 
-  @media only screen and (max-width: 870px) {
+@media only screen and (max-width: 870px) {
 
     .bullet {
-      display: none;
+        display: none;
     }
 
     .link {
@@ -256,7 +281,7 @@ a {
     }
 
     .icons {
-       flex-direction: column;
+        flex-direction: column;
     }
-    
-  }
+
+}
