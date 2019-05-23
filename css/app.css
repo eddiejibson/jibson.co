@@ -184,6 +184,10 @@ a {
     margin-right: 20px;
 }
 
+.right {
+    margin-right: 20px;
+}
+
 .card p {
     margin: 0;
     color: #bdc3c7;
@@ -264,6 +268,11 @@ a {
         margin-left: 0;
         margin-right: 0;
         margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .right {
+        margin-right: 0;
         margin-bottom: 20px;
     }
 
