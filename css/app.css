@@ -141,7 +141,8 @@ h1 {
     background-color: #2b2c31;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .08)
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .08);
+    border: 1px solid #222226;
 }
 
 .card h1 {
