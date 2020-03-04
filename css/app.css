@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #14151c;
+  background-color: #16171e;
   font-family: "Source Sans Pro", sans-serif;
   filter: blur(4px);
   transition: filter 1s ease-out;
@@ -121,7 +121,7 @@ p {
   width: 100%;
   color: inherit;
   -webkit-fill: currentColor;
-  fill: #14151c;
+  fill: #16171e;
   pointer-events: none;
 }
 
