@@ -289,3 +289,9 @@ a {
     flex-direction: column;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .inner-container {
+    width: 95%;
+  }
+}
