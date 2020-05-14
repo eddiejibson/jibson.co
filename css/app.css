@@ -91,6 +91,28 @@ p {
   }
 }
 
+@keyframes smooth-text {
+  0% {
+    color: #ff4757;
+  }
+
+  25% {
+    color: #1e90ff;
+  }
+
+  50% {
+    color: #6a89cc;
+  }
+
+  75% {
+    color: #00b894;
+  }
+
+  100% {
+    color: #ff4757;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -210,6 +232,11 @@ a {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 8px;
+}
+
+.color-text {
+  color: #bdc3c7;
+  animation: smooth-text 40s infinite;
 }
 
 .pill {
