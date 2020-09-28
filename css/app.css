@@ -6,6 +6,8 @@ body {
   transition: filter 1s ease-out;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -60,7 +62,7 @@ p {
 }
 
 .icons {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -174,7 +176,7 @@ h1 {
 .section-title {
   font-size: 1.25rem;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .disabled {
@@ -321,4 +323,12 @@ a {
   .inner-container {
     width: 95%;
   }
+}
+
+.private-works {
+  text-align: center;
+  color: #bdc3c7 !important;
+  margin-top:0;
+  margin-bottom: 30px;
+  font-size: 14px !important;
 }
